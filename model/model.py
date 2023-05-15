@@ -236,7 +236,7 @@ class VisualTransformer(nn.Module):
         return x
 
 
-class CLIP(nn.Module):
+class cocoCLIP(nn.Module):
     def __init__(self,
                  embed_dim: int,
                  # vision

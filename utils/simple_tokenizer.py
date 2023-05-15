@@ -9,7 +9,7 @@ import regex as re
 
 @lru_cache()
 def default_bpe():
-    return 'data/bpe_simple_vocab_16e6.txt.gz'
+    return 'models/clip_training/data/bpe_simple_vocab_16e6.txt.gz'
 
 
 @lru_cache()
